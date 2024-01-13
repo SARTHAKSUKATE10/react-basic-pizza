@@ -1,14 +1,15 @@
 import React from 'react'
+import Logo from '../assets/pizzaLogo.png'
 
-function Nav() {
+function Navbar() {
   return (
     <div className='navbar'>
       <div className='leftside'>
-        {/* <img src={} /> */}
+        <img src={Logo} />
       </div>
       <div className='rightside'></div>
     </div>
   )
 }
 
-export default Nav
+export default Navbar
